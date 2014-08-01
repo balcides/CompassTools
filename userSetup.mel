@@ -1,0 +1,4 @@
+if(`about -windows` || `about -linux`) {
+    python("import sys");
+    python("sys.path.append('$MAYA_APP_DIR/projects/py')");
+    }
